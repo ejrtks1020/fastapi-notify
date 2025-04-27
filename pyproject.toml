@@ -1,0 +1,16 @@
+[project]
+name = "sse-alert"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "icecream>=2.1.4",
+    "jinja2>=3.1.6",
+    "redis>=5.2.1",
+    "sqlalchemy>=2.0.40",
+    "sse-starlette>=2.3.3",
+    "uvicorn>=0.34.2",
+]
