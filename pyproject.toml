@@ -3,8 +3,9 @@ name = "sse-alert"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9.12"
+requires-python = ">=3.12.5"
 dependencies = [
+    "aio-pika>=9.5.5",
     "dotenv>=0.9.9",
     "fastapi>=0.115.12",
     "icecream>=2.1.4",
